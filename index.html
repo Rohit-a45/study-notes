@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Notes | Class 9 - 12</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="brand">
+            📚 StudyNotes
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#classes">Classes</a>
+            <a href="#notes">Notes</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Hero -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <span class="badge">
+                📖 Free Study Material
+            </span>
+
+            <h1>
+                Study Smarter.<br>
+                <span>Learn Better.</span>
+            </h1>
+
+            <p>
+                Class 9 to 12 handwritten and chapter-wise
+                notes for Physics, Chemistry and Mathematics.
+            </p>
+
+            <a href="#classes" class="hero-btn">
+                Explore Notes →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Classes -->
+
+    <section class="classes-section" id="classes">
+
+        <div class="section-title">
+
+            <span>SELECT YOUR CLASS</span>
+
+            <h2>
+                Choose Your Class
+            </h2>
+
+            <p>
+                Select a class to explore subject-wise notes.
+            </p>
+
+        </div>
+
+
+        <div class="class-grid">
+
+            <div class="class-card" onclick="selectClass(9)">
+                <div class="class-number">09</div>
+
+                <div>
+                    <h3>Class 9</h3>
+                    <p>Physics • Chemistry • Maths</p>
+                </div>
+
+                <span>→</span>
+            </div>
+
+
+            <div class="class-card" onclick="selectClass(10)">
+                <div class="class-number">10</div>
+
+                <div>
+                    <h3>Class 10</h3>
+                    <p>Physics • Chemistry • Maths</p>
+                </div>
+
+                <span>→</span>
+            </div>
+
+
+            <div class="class-card" onclick="selectClass(11)">
+                <div class="class-number">11</div>
+
+                <div>
+                    <h3>Class 11</h3>
+                    <p>Physics • Chemistry • Maths</p>
+                </div>
+
+                <span>→</span>
+            </div>
+
+
+            <div class="class-card" onclick="selectClass(12)">
+                <div class="class-number">12</div>
+
+                <div>
+                    <h3>Class 12</h3>
+                    <p>Physics • Chemistry • Maths</p>
+                </div>
+
+                <span>→</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Notes -->
+
+    <section class="notes-section" id="notes">
+
+        <div class="notes-header">
+
+            <div>
+                <span>STUDY MATERIAL</span>
+
+                <h2 id="notesTitle">
+                    Class 9 Notes
+                </h2>
+            </div>
+
+
+            <input
+                type="text"
+                id="search"
+                placeholder="🔍 Search chapter..."
+                onkeyup="searchNotes()"
+            >
+
+        </div>
+
+
+        <!-- Subjects -->
+
+        <div class="subject-buttons">
+
+            <button onclick="showSubject('Physics')">
+                ⚛ Physics
+            </button>
+
+            <button onclick="showSubject('Chemistry')">
+                🧪 Chemistry
+            </button>
+
+            <button onclick="showSubject('Maths')">
+                📐 Mathematics
+            </button>
+
+        </div>
+
+
+        <!-- Notes Container -->
+
+        <div id="notesContainer">
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>📚 StudyNotes</h3>
+
+        <p>
+            Class 9 • 10 • 11 • 12
+        </p>
+
+        <p class="copyright">
+            © 2026 StudyNotes. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="Script.js"></script>
+
+</body>
+
+</html>

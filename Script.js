@@ -7,6 +7,10 @@ const notes = {
             {
                 title: "Motion",
                 file: "motions.pdf"
+            },
+            {
+                title: "Force and Laws of Motion",
+                file: "force-and-laws-of-motion.pdf"
             }
         ],
         Chemistry: [],

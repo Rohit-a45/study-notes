@@ -11,6 +11,10 @@ const notes = {
             {
                 title: "Force and Laws of Motion",
                 file: "force-and-laws-of-motion.pdf"
+            },
+            {
+                title: "Gravitation",
+                file: "Class_9_Physics_Gravitation_Notes.pdf"
             }
         ],
         Chemistry: [],
@@ -22,6 +26,14 @@ const notes = {
             {
                 title: "Light - Reflection and Refraction",
                 file: "class-10th-light.pdf"
+            },
+            {
+                title: "Work and Energy",
+                file: "Class_9_Physics_Work_and_Energy_Notes.pdf"
+            },
+            {
+                title: "Sound",
+                file: "Class_9_Physics_Sound_Notes.pdf"
             }
         ],
         Chemistry: [],
